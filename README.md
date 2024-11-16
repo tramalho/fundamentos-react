@@ -37,3 +37,11 @@ Abrir url [http://localhost:3000](http://localhost:3000) para visualizar projeto
     
 </details>
 
+<details> 
+    <summary>Aula 03</summary>
+
+    ### Pontos Importantes
+    - JSX: Enxtensão que permite escrever código semelhante a HTML em arquivos javascript, para usar com react é necessário realizar o importe `react`.
+    - React é fortemente orientado a criação de componentes
+</details>
+
