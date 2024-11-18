@@ -53,3 +53,16 @@ Abrir url [http://localhost:3000](http://localhost:3000) para visualizar projeto
     - Para utilizar `arquivos` (ex.: css) necessitamos realizar o `import relativo`
 </details>
 
+<details> 
+    <summary>Aula 05</summary>
+
+    ### Pontos Importantes
+    - Convenção: Components (método e arquivos) costumam ser nomeados no padrão 'Pascal case'.
+    - JSX acessa os camponentes como tags, exemplo: '<div><Comp01 /></div>'
+</details>
+
+<details> 
+    <summary>Aula 06</summary>
+    ### Pontos Importantes
+</details>
+
