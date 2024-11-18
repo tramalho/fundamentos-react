@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import React from 'react';
+import './index.css';
 
 const tag = <h1>Hello world!!!</h1>
 
