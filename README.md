@@ -64,5 +64,13 @@ Abrir url [http://localhost:3000](http://localhost:3000) para visualizar projeto
 <details> 
     <summary>Aula 06</summary>
     ### Pontos Importantes
+    -  Convenção: componentes devem ter seu conteúdo envolvidos por parenteses `()`
+</details>
+
+<details> 
+    <summary>Componente com Propriedade</summary>
+    ### Pontos Importantes
+    -  convenção: nome de propriedades serão props
+    - 
 </details>
 
