@@ -9,6 +9,6 @@ const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 root.render(<div>
     {tag}
-    <h2>{<Comp01 />}</h2>
+    {<Comp01 />}
 </div>);
 
