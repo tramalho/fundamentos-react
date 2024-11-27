@@ -70,7 +70,21 @@ Abrir url [http://localhost:3000](http://localhost:3000) para visualizar projeto
 <details> 
     <summary>Componente com Propriedade</summary>
     ### Pontos Importantes
-    -  convenção: nome de propriedades serão props
-    - 
+    - convenção: nome de propriedades serão conhecidos como `props`
+    - upload images: em andamento
+</details>
+
+<details> 
+    <summary>Edição de propriedades</summary>
+    ### Pontos Importantes
+    -  Propriedades são somente leitura (read only)
+</details>
+
+<details> 
+    <summary>React Fragment</summary>
+    ### Pontos Importantes
+    -  Utilizar alguma tag para envolver os elementos html/jsx dos componentes
+    - <React.Fragment> ou <></> é utilizado para resolver o erro:
+      `Adjacent JSX elementos must be wrapper in an enclosing tag.`
 </details>
 

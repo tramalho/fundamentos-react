@@ -6,12 +6,12 @@ export default function ComParametro(props) {
     msg = "Nenhum valor enviado";
   }
   return (
-    <div>
+    <React.Fragment>
       <h2>{props.titulo}</h2>
       <p>
         Valor a seguir é um parametro: <strong>{props.subtitulo}</strong>
       </p>
       <strong>Parâmetro message: {msg}</strong>
-    </div>
+    </React.Fragment>
   );
 }

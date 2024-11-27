@@ -9,7 +9,7 @@ const tag = <h1>Hello world!!!</h1>;
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 root.render(
-  <div>
+  <>
     {tag}
     {<Comp01 />}
     <ComParametro titulo="Segundo Componente" subtitulo="Subtitulo" />
@@ -18,5 +18,5 @@ root.render(
       subtitulo="Componente com parâmetros"
       message={1234567890}
     />
-  </div>
+  </>
 );
