@@ -5,7 +5,7 @@ export default function Primeiro() {
 
     return (
         <div>
-            <h1>Primeiro Componente</h1>
+            <h2>Primeiro Componente</h2>
             <h2>{msg}</h2>
         </div>
 )

@@ -1,14 +1,19 @@
+import React from 'react';
 
 const getRandomNumber = (props) => {
+    const { min, max } = props;
     const math = Math.random();
-    const min = Math.ceil(props.min);
-    const max = Math.floor(props.max);
     const result = Math.floor(math * (max - min + 1)) + min;
-    console.log("Math.random() = ", math);
-    console.log("props.min = ", min);
-    console.log("props.max = ", max);
-    console.log("result = ", result);
-    return result;
+
+    return (
+        <div>
+            <h2>Valor Aleatório</h2>
+            <p><strong>Valor Mínimo: {min}</strong></p>
+            <p><strong>Valor Máximo: {max}</strong></p>
+            <p><strong>  Valor Seed: {math}</strong></p>
+            <p><strong>Valor Gerado: {result}</strong></p>
+        </div>
+    );
 }
 
 export default getRandomNumber;

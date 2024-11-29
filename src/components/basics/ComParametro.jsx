@@ -12,6 +12,7 @@ export default function ComParametro(props) {
         Valor a seguir é um parametro: <strong>{props.subtitulo}</strong>
       </p>
       <strong>Parâmetro message: {msg}</strong>
+      <hr />
     </React.Fragment>
   );
 }
