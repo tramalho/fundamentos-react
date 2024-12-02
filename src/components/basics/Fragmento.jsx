@@ -5,7 +5,6 @@ export default function Fragmento() {
 		<React.Fragment>
 			<h2>Fragmento</h2>
 			<p>Cuidado com esse erro!</p>
-			<hr />
 		</React.Fragment>
 	);
 }

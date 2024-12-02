@@ -88,3 +88,16 @@ Abrir url [http://localhost:3000](http://localhost:3000) para visualizar projeto
       `Adjacent JSX elementos must be wrapper in an enclosing tag.`
 </details>
 
+<details> 
+    <summary>React Fragment</summary>
+    ### Pontos Importantes
+    -  Utilizar alguma tag para envolver os elementos html/jsx dos componentes
+    - <React.Fragment> ou <></> é utilizado para resolver o erro:
+      `Adjacent JSX elementos must be wrapper in an enclosing tag.`
+</details>
+<details> 
+    <summary>Component Card #02</summary>
+    ### Pontos Importantes
+    - Para utilizar a propriedade `class` (CSS) devemos em elementos React utilizar `className`
+</details>
+
