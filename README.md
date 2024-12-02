@@ -17,6 +17,11 @@ npm start
 
 Abrir url [http://localhost:3000](http://localhost:3000) para visualizar projeto.
 
+## Misc
+Gerar Paleta de cores:
+[https://coolors.co/gradient-palette](https://coolors.co/gradient-palette/f9b16e-f68080?number=30)
+
+
 ## Resumo
 <details> 
 <summary>Aula 01</summary>
@@ -96,8 +101,13 @@ Abrir url [http://localhost:3000](http://localhost:3000) para visualizar projeto
       `Adjacent JSX elementos must be wrapper in an enclosing tag.`
 </details>
 <details> 
-    <summary>Component Card #02</summary>
+    <summary>Componente Card #02</summary>
     ### Pontos Importantes
     - Para utilizar a propriedade `class` (CSS) devemos em elementos React utilizar `className`
 </details>
-
+<details> 
+    <summary>Componente Card #03</summary>
+    ### Pontos Importantes
+    - No Javascript variaveis não podem conter hifen no seu nome
+    - Para criar um objeto em javascript utilizamos a sintaxe: `{}`
+</details>

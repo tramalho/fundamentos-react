@@ -12,30 +12,30 @@ const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
-			<Card title="#04 - Aleatório">
+			<Card title="#04 - Aleatório" color="#F7887D">
 				<Aleatorio min={1} max={60} />
 			</Card>
-			<Card title="#03 - Fragmento">
+			<Card title="#03 - Fragmento" color="#F6877E">
 				<Fragmento />
 			</Card>
-			<Card title="#02 - Com Parâmetro">
+			<Card title="#02 - Com Parâmetro" color="#F6857E">
 				<ComParametro
 					titulo="Situação do Aluno"
 					subtitulo="Nota"
 					message={9.3}
 				/>
 			</Card>
-			<Card title="#02 - Com Parametro 2">
+			<Card title="#02 - Com Parametro 2" color="#F6837F">
 				<ComParametro
 					titulo="Reuso do Componente"
 					subtitulo="Componente com parâmetros"
 					message={1234567890}
 				/>
 			</Card>
-			<Card title="#01 - Primeiro Componente">
+			<Card title="#01 - Primeiro Componente" color="#F6827F">
 				<Comp01 />
 			</Card>
-			<Card title="#01 - Tag">{tag}</Card>
+			<Card title="#01 - Tag" color="#F68080">{tag}</Card>
 		</div>
 	</div>
 );
