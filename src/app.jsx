@@ -6,12 +6,17 @@ import Fragmento from "./components/basics/Fragmento";
 import Aleatorio from "./components/basics/Aleatorio";
 import Card from "./components/layout/Card";
 import "./App.css";
+import Familia from "./components/basics/Familia";
 const tag = <strong>Hello world!!!</strong>;
 
 const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
+		<Card title="#05 - Componente com Filhos" color="#F7887D">
+				<Familia sobrenome={"Sobrenome"}/>
+			</Card>
+
 			<Card title="#04 - Aleatório" color="#F7887D">
 				<Aleatorio min={1} max={60} />
 			</Card>
