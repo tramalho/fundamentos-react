@@ -111,3 +111,10 @@ Gerar Paleta de cores:
     - No Javascript variaveis não podem conter hifen no seu nome
     - Para criar um objeto em javascript utilizamos a sintaxe: `{}`
 </details>
+
+<details> 
+    <summary>Componente com Filhos #01</summary>
+    ### Pontos Importantes
+    - As propriedades não são passadas automaticamente entre componentes pais e filhos
+    - Para compartilhar o objeto de proprieades completo utilizar spread `{...props}` [Javascript]    
+</details>

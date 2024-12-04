@@ -7,14 +7,19 @@ import Aleatorio from "./components/basics/Aleatorio";
 import Card from "./components/layout/Card";
 import "./App.css";
 import Familia from "./components/basics/Familia";
+import FamiliaMembro from "./components/basics/FamiliaMembro";
 const tag = <strong>Hello world!!!</strong>;
 
 const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
-		<Card title="#05 - Componente com Filhos" color="#F7887D">
-				<Familia sobrenome={"Sobrenome"}/>
+			<Card title="#05 - Componente com Filhos" color="#F78A7C">
+				<Familia sobrenome={"Outro Sobrenome"}>
+					<FamiliaMembro nome="Nome 01" />
+					<FamiliaMembro nome="Nome 02" />
+					<FamiliaMembro nome="Nome 03" />
+				</Familia>
 			</Card>
 
 			<Card title="#04 - Aleatório" color="#F7887D">
@@ -40,7 +45,9 @@ const App = (_) => (
 			<Card title="#01 - Primeiro Componente" color="#F6827F">
 				<Comp01 />
 			</Card>
-			<Card title="#01 - Tag" color="#F68080">{tag}</Card>
+			<Card title="#01 - Tag" color="#F68080">
+				{tag}
+			</Card>
 		</div>
 	</div>
 );
