@@ -11,14 +11,17 @@ import FamiliaMembro from "./components/basics/FamiliaMembro";
 import ListaAlunos from "./components/repetition/ListaAlunos";
 import ListaProdutos from "./components/repetition/ListaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 const tag = <strong>Hello world!!!</strong>;
 
 const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
-			<Card title="#08 - Renderização" color="#F78F7A">
+			<Card title="#08 - Renderização Condicional" color="#F78F7A">
 				<ParOuImpar numero={21} />
+				<UsuarioInfo usuario={{ nome: "From App.jsx" }} />
+				<UsuarioInfo usuario={{ other: "Other" }} />
 			</Card>
 			<Card title="#07 - Des Repetição" color="#F78E7B">
 				<ListaProdutos />
