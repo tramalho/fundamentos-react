@@ -8,12 +8,16 @@ import Card from "./components/layout/Card";
 import "./App.css";
 import Familia from "./components/basics/Familia";
 import FamiliaMembro from "./components/basics/FamiliaMembro";
+import ListaAlunos from "./components/repetition/ListaAlunos";
 const tag = <strong>Hello world!!!</strong>;
 
 const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
+			<Card title="#06 -  Repetição" color="#F78C7C">
+				<ListaAlunos />
+			</Card>
 			<Card title="#05 - Componente com Filhos" color="#F78A7C">
 				<Familia sobrenome={"Outro Sobrenome"}>
 					<FamiliaMembro nome="Nome 01" />

@@ -116,5 +116,18 @@ Gerar Paleta de cores:
     <summary>Componente com Filhos #01</summary>
     ### Pontos Importantes
     - As propriedades não são passadas automaticamente entre componentes pais e filhos
-    - Para compartilhar o objeto de proprieades completo utilizar spread `{...props}` [Javascript]    
+    - Para compartilhar o objeto de propriedades completo utilizar spread `{...props}` [Javascript]    
+</details>
+
+<details> 
+    <summary>Componente com Filhos #02</summary>
+    ### Pontos Importantes
+    - Compartilhar props entre componentes aninhados requer `cloneElement`     
+</details>
+
+<details> 
+    <summary>Repetição</summary>
+    ### Pontos Importantes
+    - Usar `keys` nos componentes é importante para que o React possa encontrar os
+    elementos rapidamente no caso de mudanças (unique keys prop error)
 </details>
