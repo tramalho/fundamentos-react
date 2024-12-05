@@ -131,3 +131,10 @@ Gerar Paleta de cores:
     - Usar `keys` nos componentes é importante para que o React possa encontrar os
     elementos rapidamente no caso de mudanças (unique keys prop error)
 </details>
+
+<details> 
+    <summary>Renderização Condicional #01</summary>
+    ### Pontos Importantes
+    - Comparação `==` compara apenas o conteúdo (Javascript)
+    - Comparação `===` compara conteúdo e tipo da variável  (Javascript)
+</details>
