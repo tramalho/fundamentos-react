@@ -1,0 +1,14 @@
+.tableProdutos {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.tableProdutos th,
+.tableProdutos td {
+	border: 1px solid black;
+}
+
+.tableProdutos tr:nth-child(odd) /* same */ {
+	background-color: lightgray;
+}
