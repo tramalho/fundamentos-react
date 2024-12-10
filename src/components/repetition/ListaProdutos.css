@@ -12,3 +12,8 @@
 .tableProdutos tr:nth-child(odd) /* same */ {
 	background-color: lightgray;
 }
+
+thead th {
+	background-color: gray;
+	color: white;
+}

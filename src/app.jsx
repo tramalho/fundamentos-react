@@ -12,12 +12,18 @@ import ListaAlunos from "./components/repetition/ListaAlunos";
 import ListaProdutos from "./components/repetition/ListaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/communication/DiretaPai";
+
 const tag = <strong>Hello world!!!</strong>;
 
 const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
+			<Card title="#09 - Comunicação Direta" color="#F7917A">
+				<DiretaPai />
+			</Card>
+
 			<Card title="#08 - Renderização Condicional #01" color="#F78F7A">
 				<ParOuImpar numero={21} />
 				<UsuarioInfo usuario={{ nome: "From App.jsx" }} />

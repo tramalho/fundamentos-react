@@ -15,7 +15,7 @@ const ListaProdutos = () => {
 	return (
 		<table className="tableProdutos">
 			<thead>
-				<tr>
+				<tr className="header">
 					<th>id</th>
 					<th>nome</th>
 					<th>preco</th>
