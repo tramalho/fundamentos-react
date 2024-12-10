@@ -14,12 +14,14 @@ const ListaProdutos = () => {
 	});
 	return (
 		<table className="tableProdutos">
-			<tr>
-				<th>id</th>
-				<th>nome</th>
-				<th>preco</th>
-			</tr>
-			{tr}
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>nome</th>
+					<th>preco</th>
+				</tr>
+			</thead>
+			<tbody>{tr}</tbody>
 		</table>
 	);
 };

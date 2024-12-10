@@ -18,12 +18,12 @@ const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
-			<Card title="#08 - Renderização Condicional" color="#F78F7A">
+			<Card title="#08 - Renderização Condicional #01" color="#F78F7A">
 				<ParOuImpar numero={21} />
 				<UsuarioInfo usuario={{ nome: "From App.jsx" }} />
-				<UsuarioInfo usuario={{ other: "Other" }} />
+				<UsuarioInfo usuario={{ sobrenome: "Abacaxi" }} />
 			</Card>
-			<Card title="#07 - Des Repetição" color="#F78E7B">
+			<Card title="#07 - Desafio Repetição" color="#F78E7B">
 				<ListaProdutos />
 			</Card>
 			<Card title="#06 -  Repetição" color="#F78C7C">
@@ -36,7 +36,6 @@ const App = (_) => (
 					<FamiliaMembro nome="Nome 03" />
 				</Familia>
 			</Card>
-
 			<Card title="#04 - Aleatório" color="#F7887D">
 				<Aleatorio min={1} max={60} />
 			</Card>
