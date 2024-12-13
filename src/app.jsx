@@ -13,6 +13,7 @@ import ListaProdutos from "./components/repetition/ListaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/communication/DiretaPai";
+import IndiretaPai from "./components/communication/IndiretaPai";
 
 const tag = <strong>Hello world!!!</strong>;
 
@@ -20,6 +21,9 @@ const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
+			<Card title="#10 - Comunicação Indireta" color="#F79379">
+				<IndiretaPai />
+			</Card>
 			<Card title="#09 - Comunicação Direta" color="#F7917A">
 				<DiretaPai />
 			</Card>
