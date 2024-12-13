@@ -138,3 +138,8 @@ Gerar Paleta de cores:
     - Comparação `==` compara apenas o conteúdo (Javascript)
     - Comparação `===` compara conteúdo e tipo da variável  (Javascript)
 </details>
+<details> 
+    <summary>Componentes com Estado</summary>
+    ### Pontos Importantes
+    - React Hooks (useState)
+</details>

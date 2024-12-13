@@ -1,27 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import IndiretaFilho from "./IndiretaFilho";
 
-const DiretaPai = (props) => {
-	let nomeParam = "?";
-	let idadeParam = 0;
-	let nerdParam = false;
+const IndiretaPai = (props) => {
+	const [nome, setNome] = useState("?");
+	const [idade, setIdade] = useState(0);
+	const [bool, setBool] = useState(false);
 
 	function fornecerInfomacoes(nome, idade, nerd) {
-		nomeParam = nome;
-		idadeParam = idade;
-		nerdParam = nerd;
-		console.log(nomeParam, idadeParam, nerdParam);
+		setNome(nome);
+		setIdade(idade);
+		setBool(nerd);
 	}
 
 	return (
 		<div>
 			<div>
-				<span>{nomeParam}</span> | <span> {idadeParam}</span> |{" "}
-				<span>{nerdParam ? "Verdadeiro " : "Falso "}</span>|
+				<span>{nome}</span> | <span> {idade}</span> |{" "}
+				<span>{bool ? "Verdadeiro " : "Falso "}</span>|
 			</div>
 			<IndiretaFilho quandoClicar={fornecerInfomacoes} />
 		</div>
 	);
 };
 
-export default DiretaPai;
+export default IndiretaPai;
