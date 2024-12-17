@@ -14,6 +14,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/communication/DiretaPai";
 import IndiretaPai from "./components/communication/IndiretaPai";
+import Input from "./components/formulario/Input";
 
 const tag = <strong>Hello world!!!</strong>;
 
@@ -21,6 +22,9 @@ const App = (_) => (
 	<div className="App">
 		<h1>Fundamentos React</h1>
 		<div className="Cards">
+			<Card title="#11 - Componente Controlado (Input)" color="#79479">
+				<Input />
+			</Card>
 			<Card title="#10 - Comunicação Indireta" color="#F79379">
 				<IndiretaPai />
 			</Card>
