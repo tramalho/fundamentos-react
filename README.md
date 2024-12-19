@@ -143,3 +143,12 @@ Gerar Paleta de cores:
     ### Pontos Importantes
     - React Hooks (useState)
 </details>
+<details> 
+    <summary>Componente Controlado</summary>
+    ### Pontos Importantes
+    - Estado do componente é associado ao dado
+    - Não é possível alterar a interface gráfica sem alterar o dado (unidirecional)
+    - Para mudar o estado, utilizar eventos e hooks
+    - Para ter um componente sem onChange utilizar readOnly
+    - Para ter um componente não controlado, utlizar undefined no valor de onChange
+</details>
